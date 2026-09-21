@@ -21,6 +21,7 @@ keymap.set("n", "<leader>tb", ":tabp<CR>") --  go to previous tab
 
 
 keymap.set("n", "<leader>r", ":!python3 %<CR>")
+keymap.set("n", "<leader>R", ":!Rscript %<CR>")
 keymap.set("n", "<leader>w", ":w %<CR>")
 keymap.set("v", "<leader>c", ":norm i#<CR>")
 keymap.set("v", "<leader>x", ":norm x<CR>")
